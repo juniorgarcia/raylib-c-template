@@ -1,0 +1,8 @@
+{
+  "code-runner.executorMap": {
+    "c": "DEBUG=1 make build-and-run",
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+  },
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build - debug",
+      "type": "shell",
+      "command": "DEBUG=1 make -B",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build - prod",
+      "type": "shell",
+      "command": "PROD=1 make",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build (debug) and run",
+      "dependsOn": [
+        "Build - debug"
+      ],
+      "type": "process",
+      "command": "${workspaceFolder}/out/game",
+    }
+  ]
+}

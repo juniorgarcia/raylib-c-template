@@ -1,0 +1,11 @@
+# Build artifacts
+out/*
+
+# Bear files
+compile_commands.json
+
+# Cache
+.cache
+
+# Misc
+.DS_Store
