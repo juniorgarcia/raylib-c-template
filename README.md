@@ -4,7 +4,7 @@ A very simple and lean C + raylib template.
 
 Be aware that:
 
-1. This was only testes on macOS
+1. This was only tested on macOS
 1. This is not meant to be used in a production environment
 1. I'm not a professional C programmer
 
